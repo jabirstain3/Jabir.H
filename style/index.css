@@ -1,0 +1,30 @@
+body {
+    width: 1440px;
+    margin: 0px auto; 
+}
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 150px;
+}
+
+.page-title {
+    font-weight: 800;
+    font-size: 28px;
+    margin: 0;
+}
+
+nav button {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 18px 24px;
+    background: #ffffff;
+}
