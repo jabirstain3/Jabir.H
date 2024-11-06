@@ -64,7 +64,7 @@ nav button {
     width:fit-content ;
     margin: 0px auto 14px;
 }
-.contact-button {
+.feedback-button {
     font-weight: 400;
     font-size: 18px;
     padding: 16px 20px;
@@ -278,10 +278,61 @@ nav button {
     font-size: 16px;
     margin-top: 8px;
 }
+
 .info-sourse {
     font-weight: 700;
     font-size: 16px;
     color: #000000;
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
+}
+
+.feedback-section {
+    background-image: url(../assets/handshake.jpg);
+    width: 1140px;
+    margin: 0 auto;
+    padding: 64px 48px ;
+    border-radius: 16px;
+}
+
+.feedback-text {
+    width: 730px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    color: #ffffff;
+}
+.feedback-heading {
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.feedback-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.feedback-info {
+    width: 730px;
+    height: 58px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-input {
+    width: 548px;
+    padding: 18px 20px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.feedback-button {
+    width: 120px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
 }
