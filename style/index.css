@@ -206,3 +206,82 @@ nav button {
     border-radius: 20px;
 }
 
+.target-section {
+    width: 1140px;
+    margin: 48px auto;
+}
+.current-terget {
+    margin: 100px 0;
+}
+
+.current-terget-text {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto 48px;
+}
+.current-terget-heading {
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+.current-terget-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.target-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.infocard-1 {
+    width: 364px;
+    background: rgba(255, 76, 30, 5%);
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.infocard-2 {
+    width: 364px;
+    background: rgba(0, 76, 232, 5%);
+    padding: 40px;
+    border-radius: 16px;
+
+}
+
+.infocard-3 {
+    width: 364px;
+    background: rgba(255, 223, 0, 10%);
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.info-icon {
+    width: 56px;
+    height: 56px;
+}
+
+.info-text {
+    padding: 24px 0;
+}
+
+.info-heading {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.info-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.info-sourse {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
