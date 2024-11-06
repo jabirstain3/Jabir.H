@@ -22,7 +22,7 @@
                 <p class="hero-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
             </div>
             <div class="button-containar">
-                <button class="contact-button">Contect with me</button>
+                <button class="contact-button" onclick="document.getElementById('contact-link').scrollIntoView({ behavior: 'smooth' })">Contect with me</button>
             </div>
         </div>
     </section>    
@@ -127,13 +127,23 @@
         </div>
     </section>
     <section class="feedback-section">
-        <div class="feedback-text">
-            <h1 class="feedback-heading">I need Support</h1>
-            <p class="feedback-paragraph">Lorem Ipsumis simply dummy text of </p>
+        <div class="feedback-contant">
+            <div class="feedback-text">
+                <h1 class="feedback-heading">I need Support</h1>
+                <p class="feedback-paragraph">Lorem Ipsumis simply dummy text of </p>
+            </div>
+            <div class="feedback-info">
+                <input class="feedback-input" type="text" name="feedback" placeholder="Suggest me any feedback for me" id="">
+                <input class="feedback-button" type="submit" value="Submit">
+            </div>
         </div>
-        <div class="feedback-info">
-            <input class="feedback-input" type="text" name="feedback" placeholder="Suggest me any feedback for me" id="">
-            <input class="feedback-button" type="button" value="Submit">
+    </section>
+    <section id="contact-link" class="footer">
+        <h1 class="onower">An Open Commitment by Awlad Hossain</h1>
+        <div class="contact-links">
+            <a class="links" href="https://www.facebook.com/jabirstain3//" target="-blank" rel="noopener noreferrer"><img src="./assets/facebook.png" alt=""></a>
+            <a class="links" href="https://github.com/jabirstain3/" target="-blank" rel="noopener noreferrer" ><img src="./assets/github.png" alt=""></a>
+            <a class="links" href="https://www.linkedin.com/in/al-jabir-bin-hasan-o3/" target="-blank" rel="noopener noreferrer"><img src="./assets/linkedin-icon 1.png" alt=""></a>
         </div>
     </section>
 </body>
