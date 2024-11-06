@@ -170,9 +170,39 @@ nav button {
     padding: 0;
 }
 
-. {
+.inspiretion-section {
+    width: 1140px;
+    margin: 0 auto;
+}
+.inspiration-text {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto 48px;
+}
+.inspiration-heading {
+    font-weight: 800;
+    font-size: 32px;
 
 }
-. {
+
+.inspiration-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.inspiration-video {
+    padding: 32px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(13, 19, 33, 20%);
+    border-radius: 18px;
 
 }
+
+.video {
+    width: 1076px;
+    height: 550px;
+    border-radius: 20px;
+}
+
